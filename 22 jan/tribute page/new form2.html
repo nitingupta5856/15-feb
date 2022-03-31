@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Form</title>
+</head>
+<body>
+    <form name="my form" action="Thank you.html" method="get">
+        <div style="display: table;">
+        <div style="display: table-row;">
+             <label for="my name" style="display: table-cell;">Name</label>
+             <span style="display: table-cell;">:</span>
+             <input type="text" id="my name" name="Name" placeholder="enter name...">
+        </div>
+        <div> 
+            <label for="emai">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div> 
+            <label for="pincode">Pincode:</label>
+            <input type="number" id="pincode" name="pincode">
+        </div>
+        <div> 
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div> 
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male:</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female:</label>
+        </div>
+        <div> 
+            <label for="tech">Technologies:</label>
+            <input type="checkbox" id="html" name="tech">
+            <label for="html">HTML:</label>
+            <input type="checkbox" id="python" name="tech">
+            <label for="python">PYTHON:</label> 
+        </div>
+        <div> 
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="5" rows="5"></textarea>
+        </div>
+        <div> 
+            <label for="techs">Technologies:</label>
+            <select name="techs" id="techs">
+                <option value="please select" disabled>please select</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+            </select>
+
+        </div>
+        <div> 
+            <label for="vehicles">Vehicles:</label>
+            <select name="Vehicles" multiple size="3">
+                <optgroup label="two wheeler vehicles">
+                    <option value="bike">Bike</option>
+                    <option value="activa">Activa</option>
+                </optgroup>
+                <optgroup label="four wheeler"> 
+                    <option value="car">Car</option>
+                    <option value="maruti">Maruti</option>
+                </optgroup>
+            </select>
+        </div>
+        <div> 
+            <label for="color">Choose colors:</label>
+            <input type="color" id="colour">
+        </div>
+        <div> 
+            <label for="calander">Choose date:</label>
+            <input type="date" id="calander">
+        </div>
+        <div> 
+            <label for="range">Range:</label>
+            <input type="range" id="range">
+        </div>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset">
+        </div>
+    </div>
+
+    </form>
+
+         
+
+
+</body>
+</html>

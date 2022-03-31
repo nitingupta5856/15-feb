@@ -1,0 +1,13 @@
+body{
+    background-color: burlywood;
+    background-image: url("../5232886.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.dating{
+    text-align: center;
+    color: crimson;
+}

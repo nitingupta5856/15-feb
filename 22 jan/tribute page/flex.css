@@ -1,0 +1,14 @@
+/* .flex-cont{
+    display:flex ;
+    flex-direction: column;
+} */
+/* .flex-cont>div{
+    margin: 10px;
+    padding: 10px;
+    background: red;
+}
+.flex-cont{
+    display:flex ;
+    flex-direction:row-reverse;
+    flex-flow: wrap;
+} */

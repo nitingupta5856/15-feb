@@ -1,0 +1,68 @@
+td{
+    text-align: left;
+}
+
+.test{
+    background-color: aquamarine;
+    font-size: large;
+}
+
+
+#para1{
+    background-color: crimson;
+}
+a:hover{
+    color: darkgreen;
+}
+input[ type="checkbox"]:checked{
+    box-shadow:0 0 0 4px darkred;
+}
+section~p{
+    background-color: blue;
+}
+.address{
+    vertical-align: top;
+    padding-top: 30px;
+    display: inline-block;
+}
+.style{
+    display: inline;
+}
+tr:nth-child(odd) td:nth-child(even){
+    background-color: rgb(20, 239, 255);
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-color: rgb(20, 239, 255);
+}
+
+
+
+
+
+
+p::first-letter{
+    color: red;
+}
+/* body{
+    background-color: rgb(20, 239, 255);
+} */
+/* p{
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    border-color: sandybrown;
+    padding: 30px;
+} */
+.para1{
+    border-style: solid;
+    border-width: 10 px;
+    margin: 10 px;
+    border-color: springgreen;
+}
+.para2{
+    border-style: solid;
+    border-width: 10 px;
+    margin: 10 px;
+    border-color: red;
+}
+
